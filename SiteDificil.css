@@ -148,24 +148,29 @@
   display: flex;
   flex-direction: column;
   }
-  
+
   .testemunha{
+    text-align: center;
   font-family: "Oswald";
   color: white;
   font-size: 70px;
   display: flex;
-  margin: 60px;}
+  margin: 60px;
+margin-top: -45px;
+}
   
   #pessoa{
     height: 166.25px;
     border-radius: 50%;
     text-align: center;
+    margin-top: -40px;
   }
   
-  .txtlorem{
+  .txtpessoa{
     color: #808080;
-    margin: 18px;
     font-family: "Quicksand";
+    margin-top: 10px;
+    
   }
   
   #jeansmith{
@@ -205,8 +210,21 @@
   
   #pessoa2{
     height: 363.5px;
+    
   }
-  
+  .BIOtex{
+    color: #808080;
+    font-family: "Quicksand";
+    
+  }
+  .dezyears{
+    color: #808080;
+    font-family: "Quicksand";
+  }
+  .listText{
+    color: #808080;
+    font-family: "Quicksand";
+  }
   .rosa{
    background-color: #df0e62;
    height: 4px;
@@ -217,16 +235,21 @@
   .link{
     color:#df0e62;
     text-decoration: none;
+    
   }
-  
+  .linA{
+    margin-right: 20px;
+    color:#df0e62;
+  }
   .txtV{
     display: flex ;
     flex-direction: column;
   }
   
   .imgblog{
-   height: 210px;
-   width: 280px;
+    position: relative;
+   height: 200px;
+   width: 300px;
    object-fit: cover;
   overflow: hidden;
   }
@@ -257,7 +280,9 @@
     color: #808080;
     margin: 16px;
     font-family: "Quicksand";
-    margin-left: 50px;  
+    margin-left: 50px;
+    width: 500px;
+    position: absolute
   }
   
   #blog{
